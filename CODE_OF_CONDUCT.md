@@ -1,7 +1,7 @@
 # Code of Conduct
 
 We are committed to fostering an open and welcoming environment in our community.  
-Please read our full [Code of Conduct](https://docs.nixopus.com/contributing/#code-of-conduct) to understand the standards of behavior expected when interacting in this project.
+Please read our full [Code of Conduct](https://docs.nixopus.com/code-of-conduct/) to understand the standards of behavior expected when interacting in this project.
 
 By participating in Nixopus, you agree to:
 - Be respectful and inclusive
