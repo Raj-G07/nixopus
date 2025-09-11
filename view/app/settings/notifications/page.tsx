@@ -94,7 +94,7 @@ const Page: React.FC = () => {
           label={t('settings.notifications.page.title')}
           description={t('settings.notifications.page.description')}
         />
-        <Tabs defaultValue={hasFeatureFlagsReadPermission ? "channels" : "preferences"} className="w-full">
+        <Tabs defaultValue={hasFeatureFlagsReadPermission ? "preferences" : "channels"} className="w-full">
           <TabsList className={`grid w-full grid-cols-2`}>
             <ResourceGuard resource="notification" action="create">
               <TabsTrigger value="channels">
