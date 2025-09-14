@@ -12,7 +12,6 @@ import Skeleton from '@/app/file-manager/components/skeleton/Skeleton';
 import DisabledFeature from '@/components/features/disabled-feature';
 import { FeatureNames } from '@/types/feature-flags';
 import { ResourceGuard } from '@/components/rbac/PermissionGuard';
-import { useRBAC } from '@/lib/rbac';
 import PageLayout from '@/components/layout/page-layout';
 
 export type NotificationChannelConfig = {
@@ -34,8 +33,6 @@ const Page: React.FC = () => {
     handleUpdatePreference
   } = useNotificationSettings();
   const { isFeatureEnabled, isLoading: isFeatureFlagsLoading } = useFeatureFlags();
-  const { canAccessResource } = useRBAC();
-  const hasFeatureFlagsReadPermission = canAccessResource('feature-flags', 'read');
 
   if (isFeatureFlagsLoading) {
     return <Skeleton />;
@@ -94,7 +91,7 @@ const Page: React.FC = () => {
           label={t('settings.notifications.page.title')}
           description={t('settings.notifications.page.description')}
         />
-        <Tabs defaultValue={hasFeatureFlagsReadPermission ? "preferences" : "channels"} className="w-full">
+        <Tabs defaultValue="channels" className="w-full">
           <TabsList className={`grid w-full grid-cols-2`}>
             <ResourceGuard resource="notification" action="create">
               <TabsTrigger value="channels">
