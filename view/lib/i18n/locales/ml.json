@@ -807,87 +807,87 @@
   },
   "fileManager": {
     "header": {
-      "title": "File Manager",
-      "subtitle": "Manage your files here"
+      "title": "ഫയൽ മാനേജർ",
+      "subtitle": "നിങ്ങളുടെ ഫയലുകൾ ഇവിടെ മാനേജ് ചെയ്യുക"
     },
     "actions": {
-      "upload": "Upload File",
-      "createDirectory": "Create Directory",
-      "showHidden": "Show Hidden Files",
-      "hideHidden": "Hide Hidden Files",
-      "newFolder": "New Folder {number}",
+      "upload": "ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+      "createDirectory": "ഡയറക്ടറി സൃഷ്ടിക്കുക",
+      "showHidden": "മറച്ച ഫയലുകൾ കാണിക്കുക",
+      "hideHidden": "മറച്ച ഫയലുകൾ മറയ്ക്കുക",
+      "newFolder": "പുതിയ ഫോൾഡർ {നമ്പർ}",
       "errors": {
-        "createDirectory": "Failed to create directory"
+        "createDirectory": "ഡയറക്‌ടറി സൃഷ്‌ടിക്കുന്നതിൽ പരാജയപ്പെട്ടു"
       }
     },
     "sort": {
-      "title": "Sort by",
+      "title": "ഇങ്ങനെ അടുക്കുക",
       "methods": {
-        "name": "Name",
-        "updated_at": "Date Modified",
-        "created_at": "Date Created",
-        "size": "Size",
-        "file_type": "Type"
+        "name": "പേര്",
+        "updated_at": "അവസാനമായി പുതുക്കിയത്",
+        "created_at": "സൃഷ്ടിച്ച തീയതി",
+        "size": "വലിപ്പം",
+        "file_type": "ടൈപ്പ്"
       }
     },
     "upload": {
-      "title": "Upload File",
-      "dragDrop": "Drag and drop files here, or click to select files",
+      "title": "ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+      "dragDrop": "ഫയലുകൾ ഇവിടെ ഡ്രാഗ് ചെയ്യുക, അല്ലെങ്കിൽ ഫയലുകൾ തിരഞ്ഞെടുക്കാൻ ക്ലിക്ക് ചെയ്യുക",
       "errors": {
-        "uploadFailed": "Failed to upload file",
-        "fileTooLarge": "File size exceeds limit",
-        "invalidType": "Invalid file type"
+        "uploadFailed": "ഫയൽ അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "fileTooLarge": "ഫയൽ വലിപ്പം പരിധി കടന്നു",
+        "invalidType": "അസാധുവായ ഫയൽ തരം"
       }
     },
     "info": {
       "labels": {
-        "path": "Path",
-        "size": "Size",
-        "created": "Created",
-        "updated": "Updated",
-        "type": "Type",
-        "hidden": "Hidden",
-        "permissions": "Permissions"
+        "path": "പാത",
+        "size": "വലിപ്പം",
+        "created": "സൃഷ്ടിച്ചത്",
+        "updated": "അവസാനമായി പുതുക്കിയത്",
+        "type": "ടൈപ്പ്",
+        "hidden": "മറച്ച",
+        "permissions": "അനുമതികൾ"
       },
-      "calculating": "Calculating...",
-      "yes": "Yes",
-      "no": "No"
+      "calculating": "കണക്കുകൂട്ടുന്നു...",
+      "yes": "അതെ",
+      "no": "ഇല്ല"
     },
     "item": {
       "actions": {
-        "info": "Info",
-        "rename": "Rename",
-        "copy": "Copy",
-        "move": "Move",
-        "delete": "Move to Trash",
-        "moveHere": "Move here",
-        "pasteHere": "Paste here"
+        "info": "വിവരം",
+        "rename": "പുനർനാമകരണം",
+        "copy": "പകർപ്പ്",
+        "move": "മാറ്റുക",
+        "delete": "കഴിവ്",
+        "moveHere": "ഇവിടെ മാറ്റുക",
+        "pasteHere": "ഇവിടെ ഒട്ടിക്കുക"
       }
     },
-    "noFiles": "No files found",
+    "noFiles": "ഫയലുകളൊന്നും കണ്ടെത്തിയില്ല",
     "deleteDialog": {
-      "title": "Delete Confirmation",
-      "descriptionFile": "Are you sure you want to delete the file '{name}'? This action cannot be undone.",
-      "descriptionDirectory": "Are you sure you want to delete the directory '{name}' and all its contents? This action cannot be undone.",
-      "confirm": "Delete",
-      "cancel": "Cancel"
+      "title": "കഴിവ് സ്ഥിരീകരണം",
+      "descriptionFile": "'{പേര്}' എന്ന ഫയൽ ഇല്ലാതാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഈ പ്രവർത്തനം പഴയപടിയാക്കാൻ കഴിയില്ല.",
+      "descriptionDirectory": "'{പേര്}' എന്ന ഡയറക്ടറി അതിന്റെ എല്ലാ ഉള്ളടക്കങ്ങളോടുകൂടി ഇല്ലാതാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഈ പ്രവർത്തനം പഴയപടിയാക്കാൻ കഴിയില്ല.",
+      "confirm": "കഴിവ്",
+      "cancel": "റദ്ദാക്കുക"
     },
     "contextMenu": {
-      "info": "Details",
-      "rename": "Rename",
-      "copy": "Copy",
-      "move": "Move",
-      "share": "Share",
-      "download": "Download",
-      "delete": "Delete",
-      "cancel": "Cancel"
+      "info": "വിവരം",
+      "rename": "പുനർനാമകരണം",
+      "copy": "പകർപ്പ്",
+      "move": "മാറ്റുക",
+      "share": "പങ്കിടുക",
+      "download": "ഡൗൺലോഡ്",
+      "delete": "കഴിവ്",
+      "cancel": "റദ്ദാക്കുക"
     },
-    "noPermissionCreate": "You don't have permission to create files",
-    "noPermissionUpdate": "You don't have permission to update files",
-    "copiedToClipboard": "Copied to clipboard",
-    "copySuccess": "File copied successfully",
+    "noPermissionCreate": "നിങ്ങൾക്ക് ഫയലുകൾ സൃഷ്ടിക്കാൻ അനുമതി ഇല്ല",
+    "noPermissionUpdate": "നിങ്ങൾക്ക് ഫയലുകൾ പുതുക്കാൻ അനുമതി ഇല്ല",
+    "copiedToClipboard": "ക്ലിപ്ബോർഡിലേക്ക് പകർന്നത്",
+    "copySuccess": "ഫയൽ വിജയകരമായി പകർന്നത്",
     "errors": {
-      "fileExists": "File already exists"
+      "fileExists": "ഫയൽ ഇതിനകം നിലവിലുണ്ട്"
     }
   },
   "selfHost": {
