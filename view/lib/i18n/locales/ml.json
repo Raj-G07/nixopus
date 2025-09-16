@@ -741,68 +741,68 @@
     "ml": "മലയാളം"
   },
   "dashboard": {
-    "title": "Dashboard",
-    "description": "Monitor your applications and system resources",
+    "title": "ഡാഷ്‌ബോർഡ്",
+    "description": "നിങ്ങളുടെ ആപ്ലിക്കേഷനുകളും സിസ്റ്റം ഉറവിടങ്ങളും നിരീക്ഷിക്കുക",
     "containers": {
-      "title": "Containers",
+      "title": "കണ്ടെയ്‌നറുകൾ",
       "table": {
         "headers": {
-          "id": "ID",
-          "name": "Name",
-          "image": "Image",
-          "status": "Status",
-          "ports": "Ports",
-          "created": "Created"
+          "id": "ഐഡി",
+          "name": "പേര്",
+          "image": "ചിത്രം",
+          "status": "സ്ഥിതി",
+          "ports": "പോർട്ടുകൾ",
+          "created": "സൃഷ്ടിച്ചത്"
         },
-        "noContainers": "No containers found",
-        "morePorts": "+{count} more"
+        "noContainers": "കണ്ടെയ്‌നറുകൾ കണ്ടെത്തിയില്ല",
+        "morePorts": "+{എണ്ണുക} കൂടുതൽ"
       },
-      "viewAll": "View All"
+      "viewAll": "എല്ലാം കാണുക"
     },
     "disk": {
-      "title": "Disk Usage",
-      "used": "{value} GB used",
-      "total": "{value} GB total",
-      "percentage": "{value}%",
+      "title": "ഡിസ്‌ക് ഉപയോഗം",
+      "used": "{മൂല്യം} GB ഉപയോഗിക്കുന്നു",
+      "total": "{മൂല്യം} GB മൊത്തം",
+      "percentage": "{മൂല്യം}%",
       "table": {
         "headers": {
-          "mount": "Mount",
-          "size": "Size",
-          "used": "Used",
+          "mount": "മൗണ്ട്",
+          "size": "വലിപ്പം",
+          "used": "ഉപയോഗിച്ചു",
           "percentage": "%"
         }
       }
     },
     "load": {
-      "title": "Load Average",
+      "title": "ശരാശരി ലോഡുചെയ്യുക",
       "labels": {
-        "oneMin": "1 minute",
-        "fiveMin": "5 minutes",
-        "fifteenMin": "15 minutes"
+        "oneMin": "1 മിനിറ്റ്",
+        "fiveMin": "5 മിനിറ്റ്",
+        "fifteenMin": "15 മിനിറ്റ്"
       }
     },
     "memory": {
-      "title": "Memory Usage",
-      "used": "{value} GB used",
-      "total": "{value} GB total",
-      "percentage": "{value}%"
+      "title": "മെമ്മറി ഉപയോഗം",
+      "used": "{മൂല്യം} GB ഉപയോഗിക്കുന്നു",
+      "total": "{മൂല്യം} GB മൊത്തം",
+      "percentage": "{മൂല്യം}%"
     },
     "errors": {
-      "parseMessage": "Failed to parse message",
-      "unknownError": "Unknown error occurred",
-      "connectionLost": "Connection lost. Attempting to reconnect...",
-      "reconnectFailed": "Failed to reconnect. Please try again later."
+      "parseMessage": "സന്ദേശം പാഴ്‌സ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+      "unknownError": "അറിയാത്ത പിശക് സംഭവിച്ചു",
+      "connectionLost": "കണക്ഷൻ നഷ്ടപ്പെട്ടു. വീണ്ടും കണക്ട് ചെയ്യാൻ ശ്രമിക്കുന്നു...",
+      "reconnectFailed": "വീണ്ടും കണക്ട് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
     },
     "system": {
-      "title": "System Information",
-      "osType": "OS Type",
+      "title": "സിസ്റ്റം വിവരങ്ങൾ",
+      "osType": "OS തരം",
       "cpu": "CPU",
-      "uptime": "Uptime",
-      "lastUpdated": "Last Updated"
+      "uptime": "അപ്‌ടൈം",
+      "lastUpdated": "അവസാനം അപ്‌ഡേറ്റ് ചെയ്‌തത്"
     },
     "smtpBanner": {
-      "message": "Configure SMTP settings to receive notifications",
-      "configure": "Configure"
+      "message": "അറിയിപ്പുകൾ ലഭിക്കുന്നതിന് SMTP ക്രമീകരണങ്ങൾ കോൺഫിഗർ ചെയ്യുക",
+      "configure": "കോൺഫിഗർ ചെയ്യുക"
     }
   },
   "fileManager": {
