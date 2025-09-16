@@ -189,556 +189,556 @@
     }
   },
   "settings": {
-    "title": "Settings",
-    "description": "Manage your account",
+    "title": "ക്രമീകരണങ്ങൾ",
+    "description": "നിങ്ങളുടെ അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക",
     "tabs": {
-      "account": "Account",
-      "security": "Security",
-      "featureFlags": "Features"
+      "account": "അക്കൗണ്ട്",
+      "security": "സുരക്ഷ",
+      "featureFlags": "വിശേഷതകൾ"
     },
     "preferences": {
       "language": {
-        "title": "Language Preferences",
-        "description": "Choose your preferred language for the application",
-        "select": "Select language"
+        "title": "ഭാഷാ മുൻഗണനകൾ",
+        "description": "അപ്ലിക്കേഷനിന് നിങ്ങളുടെ ഇഷ്ടഭാഷ തിരഞ്ഞെടുക്കുക",
+        "select": "ഭാഷ തിരഞ്ഞെടുക്കുക"
       },
-      "font": "Font",
+      "font": "ഫോണ്ട്",
       "fontOptions": {
-        "geist": "Geist",
-        "inter": "Inter",
-        "roboto": "Roboto",
-        "poppins": "Poppins",
-        "montserrat": "Montserrat",
-        "spaceGrotesk": "Space Grotesk",
-        "outfit": "Outfit",
-        "jakarta": "Plus Jakarta Sans",
-        "system": "System"
+        "geist": "ഗീസ്റ്റ്",
+        "inter": "ഇൻ്റർ",
+        "roboto": "റോബോട്ടോ",
+        "poppins": "പോപ്പിൻസ്",
+        "montserrat": "മോണ്ടസെറട്ട്",
+        "spaceGrotesk": "സ്പേസ് ഗ്രൊടെസ്ക്",
+        "outfit": "ഔട്ട്‌ഫിറ്റ്",
+        "jakarta": "പ്ലസ് ജക്കാർത്ത സാൻസ്",
+        "system": "സിസ്റ്റം"
       },
       "autoUpdate": {
-        "title": "Auto Update",
-        "description": "Automatically update nixopus when a new version is available",
-        "select": "Select auto update"
+        "title": "സ്വയം അപ്ഡേറ്റ്",
+        "description": "ഒരു പുതിയ പതിപ്പ് ലഭ്യമായപ്പോൾ നിക്സോപസ് സ്വയം അപ്ഡേറ്റ് ചെയ്യുക",
+        "select": "സ്വയം അപ്ഡേറ്റ് തിരഞ്ഞെടുക്കുക"
       }
     },
     "featureFlags": {
-      "title": "Features",
-      "description": "Enable or disable specific features for your organization",
+      "title": "വിശേഷതകൾ",
+      "description": "നിങ്ങളുടെ സ്ഥാപനത്തിനായി പ്രത്യേക സവിശേഷതകൾ പ്രാപ്തമാക്കുക അല്ലെങ്കിൽ അപ്രാപ്തമാക്കുക",
       "groups": {
         "infrastructure": {
-          "title": "Infrastructure",
-          "description": "Enable or disable specific infrastructure features for your organization"
+          "title": "അടിസ്ഥാനസൗകര്യങ്ങൾ",
+          "description": "നിങ്ങളുടെ സ്ഥാപനത്തിനായി പ്രത്യേക അടിസ്ഥാനസൗകര്യങ്ങൾ പ്രാപ്തമാക്കുക അല്ലെങ്കിൽ അപ്രാപ്തമാക്കുക"
         },
         "development": {
-          "title": "Development",
-          "description": "Enable or disable specific development features for your organization"
+          "title": "വികസനം",
+          "description": "നിങ്ങളുടെ സ്ഥാപനത്തിനായി പ്രത്യേക വികസന സവിശേഷതകൾ പ്രാപ്തമാക്കുക അല്ലെങ്കിൽ അപ്രാപ്തമാക്കുക"
         },
         "monitoring": {
-          "title": "Monitoring",
-          "description": "Enable or disable specific monitoring features for your organization"
+          "title": "മോണിറ്ററിംഗ്",
+          "description": "നിങ്ങളുടെ സ്ഥാപനത്തിനായി പ്രത്യേക മോണിറ്ററിംഗ് സവിശേഷതകൾ പ്രാപ്തമാക്കുക അല്ലെങ്കിൽ അപ്രാപ്തമാക്കുക"
         },
         "notifications": {
-          "title": "Notifications",
-          "description": "Enable or disable specific notifications features for your organization"
+          "title": "അറിയിപ്പുകൾ",
+          "description": "നിങ്ങളുടെ സ്ഥാപനത്തിനായി പ്രത്യേക അറിയിപ്പ് സവിശേഷതകൾ പ്രാപ്തമാക്കുക അല്ലെങ്കിൽ അപ്രാപ്തമാക്കുക"
         }
       },
       "features": {
         "terminal": {
-          "title": "Terminal",
-          "description": "Access to the terminal feature"
+          "title": "ടെർമിനൽ",
+          "description": "ടെർമിനൽ സവിശേഷതയിലേക്കുള്ള ആക്‌സസ്"
         },
         "file_manager": {
-          "title": "File Manager",
-          "description": "Access to the file manager feature"
+          "title": "ഫയൽ മാനേജർ",
+          "description": "ഫയൽ മാനേജർ സവിശേഷതയിലേക്കുള്ള ആക്‌സസ്"
         },
         "self_hosted": {
-          "title": "Self Hosted",
-          "description": "Access to the self hosted feature"
+          "title": "സ്വയം ഹോസ്റ്റുചെയ്യപ്പെട്ട",
+          "description": "സ്വയം ഹോസ്റ്റുചെയ്യപ്പെട്ട സവിശേഷതയിലേക്കുള്ള ആക്‌സസ്"
         },
         "domain": {
-          "title": "Domain",
-          "description": "Access to the domain feature"
+          "title": "ഡൊമെയ്ൻ",
+          "description": "ഡൊമെയ്ൻ സവിശേഷതയിലേക്കുള്ള ആക്‌സസ്"
         },
         "container": {
-          "title": "Container",
-          "description": "Access to the container feature"
+          "title": "കണ്ടെയ്നർ",
+          "description": "കണ്ടെയ്നർ സവിശേഷതയിലേക്കുള്ള ആക്‌സസ്"
         },
         "monitoring": {
-          "title": "Monitoring",
-          "description": "Access to the monitoring feature"
+          "title": "മോണിറ്ററിംഗ്",
+          "description": "മോണിറ്ററിംഗ് സവിശേഷതയിലേക്കുള്ള ആക്‌സസ്"
         },
         "proxy_config": {
-          "title": "Proxy Configuration",
-          "description": "Access to the proxy configuration feature"
+          "title": "പ്രോക്സി കോൺഫിഗറേഷൻ",
+          "description": "പ്രോക്സി കോൺഫിഗറേഷൻ സവിശേഷതയിലേക്കുള്ള ആക്‌സസ്"
         },
         "github_connector": {
-          "title": "GitHub Connector",
-          "description": "Access to the GitHub connector feature"
+          "title": "GitHub കണക്റ്റർ",
+          "description": "GitHub കണക്ടർ സവിശേഷതയിലേക്കുള്ള ആക്‌സസ്"
         },
         "audit": {
-          "title": "Audit Logs",
-          "description": "Access to the audit logs feature"
+          "title": "ഓഡിറ്റ് ലോഗുകൾ",
+          "description": "ഓഡിറ്റ് ലോഗുകളുടെ സവിശേഷതയിലേക്കുള്ള ആക്സസ്"
         },
         "notifications": {
-          "title": "Notifications",
-          "description": "Access to the notifications feature"
+          "title": "അറിയിപ്പുകൾ",
+          "description": "അറിയിപ്പുകൾ സവിശേഷതയിലേക്കുള്ള ആക്‌സസ്"
         }
       },
       "messages": {
-        "updated": "Feature flag updated successfully",
-        "updateFailed": "Failed to update feature flag"
+        "updated": "ഫീച്ചർ ഫ്ലാഗ് വിജയകരമായി അപ്ഡേറ്റ് ചെയ്തു",
+        "updateFailed": "ഫീച്ചർ ഫ്ലാഗ് അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
       }
     },
     "account": {
-      "title": "Account Information",
-      "description": "Update your account details",
+      "title": "അക്കൗണ്ട് വിവരങ്ങൾ",
+      "description": "നിങ്ങളുടെ അക്കൗണ്ട് വിശദാംശങ്ങൾ അപ്ഡേറ്റ് ചെയ്യുക",
       "username": {
-        "label": "Username",
-        "placeholder": "Enter your username",
-        "update": "Update",
-        "success": "Your username has been updated successfully!",
-        "error": "Failed to update username"
+        "label": "ഉപയോക്തൃനാമം",
+        "placeholder": "നിങ്ങളുടെ ഉപയോക്തൃനാമം നൽകുക",
+        "update": "അപ്ഡേറ്റ് ചെയ്യുക",
+        "success": "നിങ്ങളുടെ ഉപയോക്തൃനാമം വിജയകരമായി അപ്ഡേറ്റ് ചെയ്തു!",
+        "error": "ഉപയോക്തൃനാമം അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
       },
       "email": {
-        "label": "Email Address",
+        "label": "ഇമെയിൽ വിലാസം",
         "notVerified": {
-          "title": "Email Not Verified",
-          "description": "Your email address is not verified. Please verify your email to access all features.",
-          "sendButton": "Send Verification Email",
-          "sending": "Sending...",
-          "sent": "Verification Email Sent",
-          "error": "Failed to send verification email. Please try again later.",
-          "checkEmail": "Please check your email and click the verification link to verify your email address."
+          "title": "ഇമെയിൽ സ്ഥിരീകരിച്ചിട്ടില്ല",
+          "description": "നിങ്ങളുടെ ഇമെയിൽ വിലാസം സ്ഥിരീകരിച്ചിട്ടില്ല. എല്ലാ സവിശേഷതകൾക്കും ആക്‌സസ് നേടാൻ നിങ്ങളുടെ ഇമെയിൽ സ്ഥിരീകരിക്കുക.",
+          "sendButton": "സ്ഥിരീകരണ ഇമെയിൽ അയയ്ക്കുക",
+          "sending": "അയക്കുന്നു...",
+          "sent": "സ്ഥിരീകരണ ഇമെയിൽ അയച്ചു",
+          "error": "സ്ഥിരീകരണ ഇമെയിൽ അയയ്ക്കുന്നതിൽ പരാജയപ്പെട്ടു. ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക.",
+          "checkEmail": "ദയവായി നിങ്ങളുടെ ഇമെയിൽ പരിശോധിക്കുക, നിങ്ങളുടെ ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കാൻ സ്ഥിരീകരണ ലിങ്കിൽ ക്ലിക്ക് ചെയ്യുക."
         }
       },
       "preferences": {
-        "title": "Account Preferences",
-        "description": "Manage your notification and display settings",
-        "appearance": "Appearance"
+        "title": "അക്കൗണ്ട് മുൻഗണനകൾ",
+        "description": "നിങ്ങളുടെ അറിയിപ്പ് மற்றும் പ്രദർശന ക്രമീകരണങ്ങൾ നിയന്ത്രിക്കുക",
+        "appearance": "പ്രദർശനം"
       },
       "avatar": {
-        "title": "Profile",
-        "description": "Manage your public profile",
-        "upload": "Upload Avatar",
-        "uploadSuccess": "Avatar uploaded successfully",
-        "uploadError": "Failed to upload avatar"
+        "title": "പ്രൊഫൈൽ",
+        "description": "നിങ്ങളുടെ പൊതു പ്രൊഫൈൽ കൈകാര്യം ചെയ്യുക",
+        "upload": "അവതാർ അപ്‌ലോഡ് ചെയ്യുക",
+        "uploadSuccess": "അവതാർ വിജയകരമായി അപ്‌ലോഡ് ചെയ്തു",
+        "uploadError": "അവതാർ അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
       },
       "success": {
-        "avatarUpdated": "Avatar updated successfully",
-        "usernameUpdated": "Username updated successfully"
+        "avatarUpdated": "അവതാർ വിജയകരമായി അപ്‌ലോഡ് ചെയ്തു",
+        "usernameUpdated": "ഉപയോക്തൃനാമം വിജയകരമായി അപ്‌ലോഡ് ചെയ്തു"
       },
       "errors": {
-        "emptyUsername": "Username cannot be empty",
-        "sameUsername": "Please enter a different username",
-        "updateFailed": "Failed to update username. Please try again.",
-        "resetEmailFailed": "Failed to send reset email",
-        "imageNotImplemented": "Not yet implemented",
-        "noImageSelected": "No image selected",
-        "avatarUpdateFailed": "Failed to update avatar",
-        "fontUpdateFailed": "Failed to update font settings",
-        "themeUpdateFailed": "Failed to update theme",
-        "languageUpdateFailed": "Failed to update language",
-        "autoUpdateUpdateFailed": "Failed to update auto-update setting"
+        "emptyUsername": "ഉപയോക്തൃനാമം ശൂന്യമായിരിക്കരുത്",
+        "sameUsername": "ദയവായി വ്യത്യസ്തമായ ഉപയോക്തൃനാമം നൽകുക",
+        "updateFailed": "ഉപയോക്തൃനാമം അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. ദയവായി വീണ്ടും ശ്രമിക്കുക.",
+        "resetEmailFailed": "സ്ഥിരീകരണ ഇമെയിൽ അയയ്ക്കുന്നതിൽ പരാജയപ്പെട്ടു",
+        "imageNotImplemented": "ഇത് ഇപ്പോൾ നടപ്പിലാക്കിയിട്ടില്ല",
+        "noImageSelected": "ചിത്രം തിരഞ്ഞെടുക്കപ്പെട്ടിട്ടില്ല",
+        "avatarUpdateFailed": "അവതാർ അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "fontUpdateFailed": "ഫോണ്ട് ക്രമീകരണങ്ങൾ അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "themeUpdateFailed": "തീം അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "languageUpdateFailed": "ഭാഷ അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "autoUpdateUpdateFailed": "ഓട്ടോ-അപ്ഡേറ്റ് ക്രമീകരണം അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
       }
     },
     "security": {
       "password": {
-        "title": "Password",
-        "description": "Change your password",
+        "title": "പാസ്‌വേഡ്",
+        "description": "നിങ്ങളുടെ പാസ്‌വേഡ് മാറ്റുക",
         "reset": {
-          "label": "Reset Password",
-          "description": "We'll send a password reset link to your email address",
-          "button": "Send Password Reset Link",
+          "label": "പാസ്‌വേഡ് പുനഃസജ്ജമാക്കുക",
+          "description": "നിങ്ങളുടെ ഇമെയിൽ വിലാസത്തിലേക്ക് ഞങ്ങൾ ഒരു പാസ്‌വേഡ് പുനഃസജ്ജമാക്കൽ ലിങ്ക് അയയ്ക്കും",
+          "button": "പാസ്‌വേഡ് പുനഃസജ്ജമാക്കൽ ലിങ്ക് അയയ്ക്കുക",
           "emailSent": {
-            "title": "Email Sent!",
-            "description": "Check your inbox for a password reset link"
+            "title": "ഇമെയിൽ അയച്ചു!",
+            "description": "പാസ്‌വേഡ് പുനഃസജ്ജമാക്കൽ ലിങ്ക് ലഭിക്കാൻ നിങ്ങളുടെ ഇൻബോക്സ് പരിശോധിക്കുക"
           }
         }
       },
       "2fa": {
-        "title": "Two-Factor Authentication",
-        "description": "Add an extra layer of security to your account",
-        "setupButton": "Setup 2FA",
-        "verifyButton": "Verify",
-        "enterCode": "Enter verification code",
-        "codePlaceholder": "Enter 6-digit code",
-        "setupSuccess": "2FA setup successful",
-        "setupError": "Failed to setup 2FA",
-        "verifySuccess": "2FA verification successful",
-        "verifyError": "Invalid verification code",
-        "enabledTitle": "2FA is Enabled",
-        "enabledDescription": "Your account is protected with two-factor authentication",
-        "disableButton": "Disable 2FA",
-        "disableSuccess": "2FA has been disabled",
-        "disableError": "Failed to disable 2FA"
+        "title": "രണ്ട്-ഘടക പ്രാമാണീകരണം",
+        "description": "നിങ്ങളുടെ അക്കൗണ്ടിന് ഒരു അധിക സുരക്ഷാ പാളി ചേർക്കുക",
+        "setupButton": "2FA ക്രമീകരിക്കുക",
+        "verifyButton": "സ്ഥിരീകരിക്കുക",
+        "enterCode": "സ്ഥിരീകരണ കോഡ് നൽകുക",
+        "codePlaceholder": "6-അക്കം കോഡ് നൽകുക",
+        "setupSuccess": "2FA ക്രമീകരണം വിജയകരമായി പൂർത്തിയായി",
+        "setupError": "2FA ക്രമീകരണം പൂർത്തിയാക്കുന്നതിൽ പരാജയപ്പെട്ടു",
+        "verifySuccess": "2FA സ്ഥിരീകരണം വിജയകരമായി പൂർത്തിയായി",
+        "verifyError": "അസാധുവായ സ്ഥിരീകരണ കോഡ്",
+        "enabledTitle": "2FA സജീവമാണ്",
+        "enabledDescription": "നിങ്ങളുടെ അക്കൗണ്ട് രണ്ട് ഘടക പ്രാമാണീകരണത്തിലൂടെ സംരക്ഷിതമാണ്",
+        "disableButton": "2FA അപ്രവർത്തനം ചെയ്യുക",
+        "disableSuccess": "2FA അപ്രവർത്തനം ചെയ്തു",
+        "disableError": "2FA അപ്രവർത്തനം ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
       }
     },
     "domains": {
       "page": {
-        "title": "Domains",
-        "description": "Domains are used to deploy your applications",
+        "title": "ഡൊമെയ്‌നുകൾ",
+        "description": "ഡൊമെയ്‌നുകൾ നിങ്ങളുടെ ആപ്ലിക്കേഷനുകൾ വിന്യസിക്കാൻ ഉപയോഗിക്കുന്നു",
         "noOrganization": {
-          "title": "No Organization Selected",
-          "description": "Please select an organization to view and manage domains."
+          "title": "സംഘടന തിരഞ്ഞെടുക്കപ്പെട്ടിട്ടില്ല",
+          "description": "ഡൊമെയ്‌നുകൾ കാണാനും നിയന്ത്രിക്കാനും ഒരു സംഘടന തിരഞ്ഞെടുക്കുക."
         },
         "accessDenied": {
-          "title": "Access Denied",
-          "description": "You don't have permission to view domains for this organization."
+          "title": "പ്രവേശനം നിരസിച്ചു",
+          "description": "ഈ സംഘടനയ്ക്ക് ഡൊമെയ്‌നുകൾ കാണാൻ നിങ്ങൾക്ക് അനുമതി ഇല്ല."
         },
-        "loading": "Loading domains...",
-        "error": "Failed to load domains. Please try again later.",
+        "loading": "ഡൊമെയ്‌നുകൾ ലോഡുചെയ്യുന്നു...",
+        "error": "ഡൊമെയ്‌നുകൾ ലോഡുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക.",
         "domainsList": {
-          "title": "Domains",
-          "addButton": "Add Domain"
+          "title": "ഡൊമെയ്‌നുകൾ",
+          "addButton": "ഡൊമെയ്ൻ ചേർക്കുക"
         },
         "noDomains": {
-          "title": "No Domains Found",
-          "noPermission": "You don't have permission to add domains."
+          "title": "ഡൊമെയ്‌നുകൾ കണ്ടെത്തിയില്ല",
+          "noPermission": "നിങ്ങൾക്ക് ഡൊമെയ്‌നുകൾ ചേർക്കാൻ അനുമതി ഇല്ല."
         }
       },
       "actions": {
-        "edit": "Edit",
-        "delete": "Delete"
+        "edit": "തിരുത്തുക",
+        "delete": "മാറ്റിക്കുക"
       },
       "delete": {
-        "title": "Delete Domain",
-        "description": "Are you sure you want to delete this domain?",
-        "cancel": "Cancel",
-        "delete": "Delete",
-        "deleting": "Deleting...",
-        "success": "Domain deleted successfully",
-        "error": "Failed to delete domain"
+        "title": "ഡൊമെയ്ൻ മാറ്റുക",
+        "description": "നിങ്ങൾ ഈ ഡൊമെയ്ൻ മാറ്റാൻ ആഗ്രഹിക്കുന്നുണ്ടോ?",
+        "cancel": "റദ്ദാക്കുക",
+        "delete": "മാറ്റിക്കുക",
+        "deleting": "മാറ്റിക്കുന്നു...",
+        "success": "ഡൊമെയ്ൻ വിജയകരമായി മാറ്റി",
+        "error": "ഡൊമെയ്ൻ മാറ്റുന്നതിൽ പരാജയപ്പെട്ടു"
       },
       "types": {
-        "wildcard": "Wildcard",
-        "standard": "Standard"
+        "wildcard": "വൈൽഡ്കാർഡ്",
+        "standard": "സ്റ്റാൻഡേർഡ്"
       },
       "table": {
         "headers": {
-          "domain": "Domain",
-          "type": "Type",
-          "actions": "Actions"
+          "domain": "ഡൊമെയ്ൻ",
+          "type": "തരം",
+          "actions": "പ്രവർത്തനങ്ങൾ"
         }
       },
       "update": {
-        "addButton": "Add Domain",
-        "addTitle": "Add Domain",
-        "updateTitle": "Update Domain",
-        "description": "Domain will help to deploy your applications",
+        "addButton": "ഡൊമെയ്ൻ ചേർക്കുക",
+        "addTitle": "ഡൊമെയ്ൻ ചേർക്കുക",
+        "updateTitle": "ഡൊമെയ്ൻ അപ്ഡേറ്റ് ചെയ്യുക",
+        "description": "ഡൊമെയ്ൻ നിങ്ങളുടെ ആപ്ലിക്കേഷനുകൾ വിന്യസിക്കാൻ സഹായിക്കും",
         "form": {
           "placeholder": "example.com",
           "validation": {
-            "minLength": "Domain name must be at least 3 characters.",
-            "invalidFormat": "Please enter a valid domain name (e.g., example.com)."
+            "minLength": "ഡൊമെയ്ൻ നാമം കുറഞ്ഞത് 3 അക്ഷരങ്ങൾ ആയിരിക്കണം.",
+            "invalidFormat": "ദയവായി ഒരു സാധുവായ ഡൊമെയ്ൻ നാമം നൽകുക (ഉദാ: example.com)."
           }
         },
         "buttons": {
-          "cancel": "Cancel",
-          "save": "Save",
-          "saving": "Saving..."
+          "cancel": "റദ്ദാക്കുക",
+          "save": "സംരക്ഷിക്കുക",
+          "saving": "സംരക്ഷിക്കുന്നു..."
         },
-        "success": "Domain added successfully",
-        "error": "Failed to add domain"
+        "success": "ഡൊമെയ്ൻ വിജയകരമായി ചേർത്തു",
+        "error": "ഡൊമെയ്ൻ ചേർക്കുന്നതിൽ പരാജയപ്പെട്ടു"
       }
     },
     "notifications": {
       "page": {
-        "title": "Notifications",
-        "description": "Manage your notification preferences and channels",
+        "title": "അറിയിപ്പുകൾ",
+        "description": "നിങ്ങളുടെ അറിയിപ്പ് മുൻഗണനകളും ചാനലുകളും നിയന്ത്രിക്കുക",
         "accessDenied": {
-          "title": "Access Denied",
-          "description": "You don't have permission to view notification settings"
+          "title": "പ്രവേശനം നിരസിച്ചു",
+          "description": "നിങ്ങൾക്ക് അറിയിപ്പ് ക്രമീകരണങ്ങൾ കാണാൻ അനുമതി ഇല്ല"
         },
         "tabs": {
-          "channels": "Channels",
-          "preferences": "Preferences"
+          "channels": "ചാനലുകൾ",
+          "preferences": "മുൻഗണനകൾ"
         },
         "permissions": {
-          "update": "You do not have permission to update notification settings",
-          "create": "You do not have permission to create notification settings"
+          "update": "നിങ്ങൾക്ക് അറിയിപ്പ് ക്രമീകരണങ്ങൾ അപ്ഡേറ്റ് ചെയ്യാൻ അനുമതി ഇല്ല",
+          "create": "നിങ്ങൾക്ക് അറിയിപ്പ് ക്രമീകരണങ്ങൾ സൃഷ്ടിക്കാൻ അനുമതി ഇല്ല"
         }
       },
       "channels": {
         "email": {
-          "title": "Email",
-          "description": "Configure SMTP settings to send email notifications",
+          "title": "ഇമെയിൽ",
+          "description": "ഇമെയിൽ അറിയിപ്പുകൾ അയയ്ക്കാൻ SMTP ക്രമീകരണങ്ങൾ ക്രമീകരിക്കുക",
           "fields": {
             "smtp_host": {
-              "label": "SMTP Server",
+              "label": "SMTP സെർവർ",
               "placeholder": "smtp.example.com"
             },
             "smtp_port": {
-              "label": "Port",
+              "label": "പോർട്ട്",
               "placeholder": "587"
             },
             "smtp_username": {
-              "label": "Username",
+              "label": "ഉപയോക്തൃനാമം",
               "placeholder": "your-email@example.com"
             },
             "smtp_password": {
-              "label": "Password",
+              "label": "പാസ്വേഡ്",
               "placeholder": "••••••••"
             },
             "smtp_from_email": {
-              "label": "From Email",
+              "label": "ഇമെയിലിൽ നിന്ന്",
               "placeholder": "notifications@example.com"
             },
             "smtp_from_name": {
-              "label": "From Name",
-              "placeholder": "Your Organization Name"
+              "label": "പേരിൽ നിന്ന്",
+              "placeholder": "നിങ്ങളുടെ സ്ഥാപനത്തിന്റെ പേര്"
             }
           },
           "buttons": {
-            "save": "Save Configuration"
+            "save": "സംരക്ഷിക്കുക"
           }
         },
         "slack": {
-          "title": "Slack",
-          "description": "Configure Slack notifications",
+          "title": "സ്ലാക്ക്",
+          "description": "Slack അറിയിപ്പുകൾ കോൺഫിഗർ ചെയ്യുക",
           "fields": {
             "webhook_url": {
-              "label": "Webhook URL",
-              "placeholder": "Enter your Slack webhook URL"
+              "label": "വെബ്ഹുക്ക് URL",
+              "placeholder": "നിങ്ങളുടെ Slack വെബ്‌ഹുക്ക് URL നൽകുക"
             },
             "is_active": {
-              "label": "Active"
+              "label": "സജീവം"
             }
           },
           "buttons": {
-            "save": "Save Configuration"
+            "save": "സംരക്ഷിക്കുക"
           }
         },
         "discord": {
-          "title": "Discord",
-          "description": "Configure Discord settings to send notifications",
+          "title": "വിയോജിപ്പ്",
+          "description": "അറിയിപ്പുകൾ അയയ്ക്കാൻ Discord ക്രമീകരണങ്ങൾ കോൺഫിഗർ ചെയ്യുക",
           "fields": {
             "webhook_url": {
-              "label": "Webhook URL",
-              "placeholder": "Enter your Discord webhook URL"
+              "label": "വെബ്ഹുക്ക് URL",
+              "placeholder": "നിങ്ങളുടെ ഡിസ്കോർഡ് വെബ്ഹുക്ക് URL നൽകുക"
             },
             "is_active": {
-              "label": "Active"
+              "label": "സജീവം"
             }
           },
           "buttons": {
-            "save": "Save Configuration"
+            "save": "സംരക്ഷിക്കുക"
           }
         },
-        "save": "Save Configuration"
+        "save": "സംരക്ഷിക്കുക"
       },
       "preferences": {
         "activity": {
-          "title": "Activity Notifications",
-          "description": "Notifications about activity in your team"
+          "title": "പ്രവൃത്തി അറിയിപ്പുകൾ",
+          "description": "നിങ്ങളുടെ ടീമിലെ പ്രവർത്തനത്തെക്കുറിച്ചുള്ള അറിയിപ്പുകൾ"
         },
         "security": {
-          "title": "Security Notifications",
-          "description": "Important alerts about deployed applications and errors"
+          "title": "സുരക്ഷാ അറിയിപ്പുകൾ",
+          "description": "പ്രവർത്തനത്തിലിരിക്കുന്ന ആപ്ലിക്കേഷനുകളും പിശകുകളും സംബന്ധിച്ച പ്രധാന അറിയിപ്പുകൾ"
         },
         "updates": {
-          "title": "Updates & Marketing",
-          "description": "Stay informed about our product and services"
+          "title": "അപ്ഡേറ്റുകൾ & മാർക്കറ്റിംഗ്",
+          "description": "നമ്മുടെ ഉൽപ്പന്നങ്ങളും സേവനങ്ങളും സംബന്ധിച്ച വിവരങ്ങൾ അറിയിക്കുക"
         }
       },
       "messages": {
         "email": {
-          "success": "Email configuration saved successfully",
-          "error": "Failed to save email configuration"
+          "success": "ഇമെയിൽ കോൺഫിഗറേഷൻ വിജയകരമായി സംരക്ഷിച്ചു",
+          "error": "ഇമെയിൽ കോൺഫിഗറേഷൻ സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു."
         },
         "slack": {
-          "success": "Slack configuration saved successfully",
-          "error": "Failed to save Slack configuration"
+          "success": "സ്ലാക്ക് കോൺഫിഗറേഷൻ വിജയകരമായി സംരക്ഷിച്ചു",
+          "error": "സ്ലാക്ക് കോൺഫിഗറേഷൻ സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു."
         },
         "discord": {
-          "success": "Discord configuration saved successfully",
-          "error": "Failed to save Discord configuration"
+          "success": "വിയോജിപ്പ് കോൺഫിഗറേഷൻ വിജയകരമായി സംരക്ഷിച്ചു",
+          "error": "വിയോജിപ്പ് കോൺഫിഗറേഷൻ സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു."
         },
-        "preferencesUpdated": "Preferences updated successfully",
-        "preferencesFailed": "Failed to update preferences"
+        "preferencesUpdated": "മുൻഗണനകൾ വിജയകരമായി അപ്ഡേറ്റ് ചെയ്തു",
+        "preferencesFailed": "മുൻഗണനകൾ അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
       }
     },
     "teams": {
       "addMember": {
-        "button": "Add User",
+        "button": "ഉപയോക്താവ് ചേർക്കുക",
         "dialog": {
-          "title": "Add New User",
-          "description": "Add a new user to your organization",
+          "title": "പുതിയ ഉപയോക്താവിനെ ചേർക്കുക",
+          "description": "നിങ്ങളുടെ സ്ഥാപനത്തിലേക്ക് ഒരു പുതിയ ഉപയോക്താവിനെ ചേർക്കുക",
           "fields": {
             "name": {
-              "label": "Name",
-              "placeholder": "Enter user's name"
+              "label": "പേര്",
+              "placeholder": "ഉപയോക്താവിന്റെ പേരെ നൽകുക"
             },
             "email": {
-              "label": "Email",
-              "placeholder": "Enter user's email"
+              "label": "ഇമെയിൽ",
+              "placeholder": "ഉപയോക്താവിന്റെ ഇമെയിൽ നൽകുക"
             },
             "role": {
-              "label": "Role",
-              "placeholder": "Select a role",
+              "label": "റോൾ",
+              "placeholder": "ഒരു റോളുകൾ തിരഞ്ഞെടുക്കുക",
               "options": {
-                "admin": "Admin",
-                "member": "Member",
-                "viewer": "Viewer"
+                "admin": "അഡ്മിൻ",
+                "member": "സदസ്യൻ",
+                "viewer": "ദർശകൻ"
               }
             },
             "password": {
-              "label": "Password",
-              "placeholder": "Enter user's password"
+              "label": "പാസ്വേഡ്",
+              "placeholder": "ഉപയോക്താവിന്റെ പാസ്വേഡ് നൽകുക"
             }
           },
           "buttons": {
-            "cancel": "Cancel",
-            "add": "Add User"
+            "cancel": "റദ്ദാക്കുക",
+            "add": "ഉപയോക്താവ് ചേർക്കുക"
           }
         }
       },
       "editTeam": {
         "dialog": {
-          "title": "Edit Team Details",
-          "description": "Team details helps you identify your team",
+          "title": "ടീമിൻ്റെ വിശദാംശങ്ങൾ എഡിറ്റ് ചെയ്യുക",
+          "description": "ടീമിന്റെ വിശദാംശങ്ങൾ നിങ്ങളുടെ ടീമിനെ തിരിച്ചറിയാൻ സഹായിക്കുന്നു",
           "fields": {
             "name": {
-              "label": "Name",
-              "placeholder": "Enter team name"
+              "label": "പേര്",
+              "placeholder": "ടീമിന്റെ പേരെ നൽകുക"
             },
             "description": {
-              "label": "Description",
-              "placeholder": "Enter team description"
+              "label": "വിവരണം",
+              "placeholder": "ടീമിന്റെ വിവരണം നൽകുക"
             }
           },
           "buttons": {
-            "cancel": "Cancel",
-            "update": "Update",
-            "updating": "Updating..."
+            "cancel": "റദ്ദാക്കുക",
+            "update": "അപ്ഡേറ്റ് ചെയ്യുക",
+            "updating": "അപ്ഡേറ്റ് ചെയ്യുന്നു..."
           }
         }
       },
       "editUser": {
         "dialog": {
-          "title": "Edit User Role",
-          "description": "Update role for {name}",
+          "title": "ഉപയോക്തൃ റോൾ എഡിറ്റ് ചെയ്യുക",
+          "description": "{പേര്} എന്നതിനുള്ള റോൾ അപ്ഡേറ്റ് ചെയ്യുക",
           "fields": {
             "role": {
-              "label": "Role",
-              "placeholder": "Select a role"
+              "label": "റോൾ",
+              "placeholder": "ഒരു റോളുകൾ തിരഞ്ഞെടുക്കുക"
             }
           },
           "buttons": {
-            "cancel": "Cancel",
-            "save": "Save Changes"
+            "cancel": "റദ്ദാക്കുക",
+            "save": "മാറ്റങ്ങൾ സംരക്ഷിക്കുക"
           },
           "errors": {
-            "noRole": "Please select a role"
+            "noRole": "ഒരു റോൾ തിരഞ്ഞെടുക്കുക"
           }
         }
       },
       "recentActivity": {
-        "title": "Recent Activities",
-        "description": "Recent changes to your organization",
-        "loading": "Loading recent activities...",
-        "error": "Failed to load recent activities",
-        "noActivities": "No recent activities found",
-        "viewAll": "View All",
+        "title": "സമീപകാല പ്രവർത്തനങ്ങൾ",
+        "description": "നിങ്ങളുടെ സംഘടനയിലെ അടുത്തിടെ നടന്ന മാറ്റങ്ങൾ",
+        "loading": "സമീപകാല പ്രവർത്തനങ്ങൾ ലോഡ് ചെയ്യുന്നു...",
+        "error": "സമീപകാല പ്രവർത്തനങ്ങൾ ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "noActivities": "സമീപകാല പ്രവർത്തനങ്ങൾ കണ്ടെത്തിയില്ല",
+        "viewAll": "എല്ലാം കാണുക",
         "actions": {
-          "create": "{username} created a new {resource}",
-          "update": "{username} updated a {resource}",
-          "delete": "{username} deleted a {resource}",
-          "default": "{username} accessed a {resource}"
+          "create": "{ഉപയോക്തൃനാമം} ഒരു പുതിയ {വിഭവം} സൃഷ്ടിച്ചു.",
+          "update": "{ഉപയോക്തൃനാമം} ഒരു {വിഭവം} അപ്ഡേറ്റ് ചെയ്തു.",
+          "delete": "{ഉപയോക്തൃനാമം} ഒരു {വിഭവം} ഇല്ലാതാക്കി.",
+          "default": "{ഉപയോക്തൃനാമം} ഒരു {വിഭവം} ആക്സസ് ചെയ്തു."
         }
       },
       "members": {
-        "title": "Team Members",
-        "description": "Manage users and their roles in your team",
+        "title": "ടീം അംഗങ്ങൾ",
+        "description": "നിങ്ങളുടെ ടീമിലെ ഉപയോക്താക്കളെയും അവരുടെ റോൾകളെയും നിയന്ത്രിക്കുക",
         "table": {
           "headers": {
-            "user": "User",
-            "role": "Role",
-            "permissions": "Permissions",
-            "actions": "Actions"
+            "user": "ഉപയോക്താവ്",
+            "role": "റോൾ",
+            "permissions": "അനുമതികൾ",
+            "actions": "പ്രവർത്തനങ്ങൾ"
           }
         },
         "actions": {
-          "edit": "Edit User",
-          "remove": "Remove User",
-          "showMore": "Show More",
-          "showLess": "Show Less"
+          "edit": "ഉപയോക്താവ് എഡിറ്റ് ചെയ്യുക",
+          "remove": "ഉപയോക്താവ് നീക്കം ചെയ്യുക",
+          "showMore": "കൂടുതൽ കാണിക്കുക",
+          "showLess": "കുറഞ്ഞത് കാണിക്കുക"
         },
         "deleteDialog": {
-          "title": "Remove {name}",
-          "description": "Are you sure you want to remove {name} from the team? This action cannot be undone.",
-          "confirm": "Remove User"
+          "title": "{പേര്} നീക്കം ചെയ്യുക",
+          "description": "{പേര്} എന്നയാളെ ടീമിൽ നിന്ന് നീക്കം ചെയ്യണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഈ പ്രവർത്തനം പഴയപടിയാക്കാൻ കഴിയില്ല.",
+          "confirm": "ഉപയോക്താവ് നീക്കം ചെയ്യുക"
         }
       },
       "stats": {
-        "title": "Team Stats",
-        "description": "Overview of your team",
-        "totalMembers": "Total Members",
-        "owners": "Owners",
-        "members": "Members",
-        "viewers": "Viewers"
+        "title": "ടീം സ്റ്റാറ്റ്സ്",
+        "description": "നിങ്ങളുടെ ടീമിന്റെ അവലോകനം",
+        "totalMembers": "മൊത്തം അംഗങ്ങൾ",
+        "owners": "മുടൽക്കാർ",
+        "members": "അംഗങ്ങൾ",
+        "viewers": "ദർശകർ"
       },
-      "noMembers": "No team members found",
+      "noMembers": "ടീം അംഗങ്ങളെ കണ്ടെത്തിയില്ല",
       "messages": {
-        "userAdded": "User added successfully",
-        "userAddFailed": "Failed to add user",
-        "userRemoved": "User removed successfully",
-        "userRemoveFailed": "Failed to remove user",
-        "userUpdated": "User updated successfully",
-        "userUpdateFailed": "Failed to update user",
-        "teamUpdated": "Team details updated successfully",
-        "teamUpdateFailed": "Failed to update team details",
-        "requiredFields": "Team name and description are required"
+        "userAdded": "ഉപയോക്താവ് വിജയകരമായി ചേർത്തു",
+        "userAddFailed": "ഉപയോക്താവ് ചേർക്കുന്നതിൽ പരാജയപ്പെട്ടു",
+        "userRemoved": "ഉപയോക്താവ് വിജയകരമായി നീക്കം ചെയ്തു",
+        "userRemoveFailed": "ഉപയോക്താവ് നീക്കം ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "userUpdated": "ഉപയോക്താവ് വിജയകരമായി അപ്ഡേറ്റ് ചെയ്തു",
+        "userUpdateFailed": "ഉപയോക്താവ് അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "teamUpdated": "ടീം വിശദാംശങ്ങൾ വിജയകരമായി അപ്ഡേറ്റ് ചെയ്തു",
+        "teamUpdateFailed": "ടീം വിശദാംശങ്ങൾ അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+        "requiredFields": "ടീം പേര് மற்றும் വിവരണം ആവശ്യമാണ്"
       },
       "createTeam": {
-        "title": "Create Team",
-        "description": "Create a new team to collaborate with others",
+        "title": "ടീം സൃഷ്ടിക്കുക",
+        "description": "മറ്റുള്ളവരുമായി സഹകരിക്കാൻ ഒരു പുതിയ ടീം സൃഷ്ടിക്കുക",
         "fields": {
           "name": {
-            "label": "Name",
-            "placeholder": "Enter team name"
+            "label": "പേര്",
+            "placeholder": "ടീം പേരെ നൽകുക"
           },
           "description": {
-            "label": "Description",
-            "placeholder": "Enter team description"
+            "label": "വിവരണം",
+            "placeholder": "ടീം വിവരണം നൽകുക"
           }
         },
         "buttons": {
-          "create": "Create",
-          "creating": "Creating..."
+          "create": "സൃഷ്ടിക്കുക",
+          "creating": "സൃഷ്ടിക്കുന്നു..."
         }
       }
     },
     "2fa": {
-      "title": "Two-Factor Authentication",
-      "description": "Add an extra layer of security to your account",
-      "setupButton": "Setup 2FA",
-      "verifyButton": "Verify",
-      "enterCode": "Enter verification code",
-      "codePlaceholder": "Enter 6-digit code",
-      "setupSuccess": "2FA setup successful",
-      "setupError": "Failed to setup 2FA",
-      "verifySuccess": "2FA verification successful",
-      "verifyError": "Invalid verification code",
-      "enabledTitle": "2FA is Enabled",
-      "enabledDescription": "Your account is protected with two-factor authentication",
-      "disableButton": "Disable 2FA",
-      "disableSuccess": "2FA has been disabled",
-      "disableError": "Failed to disable 2FA"
+      "title": "രണ്ടാം ഘട്ടം സ്ഥിരീകരണം",
+      "description": "നിങ്ങളുടെ അക്കൗണ്ടിന് ഒരു അധിക സുരക്ഷാ പാളി ചേർക്കുക",
+      "setupButton": "2FA ക്രമീകരിക്കുക",
+      "verifyButton": "സ്ഥിരീകരിക്കുക",
+      "enterCode": "സ്ഥിരീകരണ കോഡ് നൽകുക",
+      "codePlaceholder": "6-അക്ക കോഡ് നൽകുക",
+      "setupSuccess": "2FA ക്രമീകരണം വിജയകരമായി പൂർത്തിയായി",
+      "setupError": "2FA ക്രമീകരണത്തിൽ പരാജയം",
+      "verifySuccess": "2FA സ്ഥിരീകരണം വിജയകരമായി പൂർത്തിയായി",
+      "verifyError": "അസാധുവായ സ്ഥിരീകരണ കോഡ്",
+      "enabledTitle": "2FA സജീവമാണ്",
+      "enabledDescription": "നിങ്ങളുടെ അക്കൗണ്ട് രണ്ടാം ഘട്ടം സ്ഥിരീകരണത്തോടെ സംരക്ഷിതമാണ്",
+      "disableButton": "2FA അപ്രവർത്തനം ചെയ്യുക",
+      "disableSuccess": "2FA അപ്രവർത്തനം ചെയ്തിട്ടുണ്ട്",
+      "disableError": "2FA അപ്രവർത്തനം ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
     }
   },
   "activities": {
-    "title": "Activities",
-    "description": "View all activities and changes in your organization",
+    "title": "പ്രവൃത്തികൾ",
+    "description": "നിങ്ങളുടെ സംഘടനയിലെ എല്ലാ പ്രവർത്തനങ്ങളും മാറ്റങ്ങളും കാണുക",
     "list": {
-      "title": "Team Activities",
-      "description": "Recent activities in your organization"
+      "title": "ടീം പ്രവർത്തനങ്ങൾ",
+      "description": "നിങ്ങളുടെ സംഘടനയിലെ പുതിയ പ്രവർത്തനങ്ങൾ"
     }
   },
   "languages": {
-    "en": "English",
-    "es": "Spanish",
-    "fr": "French",
-    "kn": "Kannada",
-    "ml": "Malayalam"
+    "en": "ഇംഗ്ലീഷ്",
+    "es": "സ്പാനിഷ്",
+    "fr": "ഫ്രഞ്ച്",
+    "kn": "കന്നഡ",
+    "ml": "മലയാളം"
   },
   "dashboard": {
     "title": "Dashboard",
