@@ -892,461 +892,461 @@
   },
   "selfHost": {
     "deployment": {
-      "title": "Deployment Details",
+      "title": "വിന്യാസ വിശദാംശങ്ങൾ",
       "logs": {
-        "title": "Deployment Logs",
-        "refresh": "Refresh Logs",
-        "loading": "Loading logs...",
-        "noLogs": "No logs available",
+        "title": "വിന്യാസ ലോഗുകൾ",
+        "refresh": "ലോഗുകൾ പുതുക്കുക",
+        "loading": "ലോഗുകൾ ലോഡുചെയ്യുന്നു...",
+        "noLogs": "ലോഗുകളൊന്നും ലഭ്യമല്ല",
         "pagination": {
-          "previous": "Previous",
-          "next": "Next",
-          "page": "Page {current} of {total}"
+          "previous": "മുമ്പത്തേത്",
+          "next": "അടുത്തത്",
+          "page": "ആകെ {നിലവിലുള്ളത്} പേജ്"
         }
       },
       "list": {
-        "title": "Deployments",
-        "noDeployments": "No deployments found",
+        "title": "വിന്യാസങ്ങൾ",
+        "noDeployments": "വിന്യാസങ്ങളൊന്നും കണ്ടെത്തിയില്ല",
         "card": {
-          "runTime": "Run Time",
-          "viewButton": "View Details",
+          "runTime": "പ്രവർത്തിപ്പിക്കൽ സമയം",
+          "viewButton": "വിശദാംശങ്ങൾ കാണുക",
           "rollback": {
-            "title": "Rollback"
+            "title": "റോൾബാക്ക്"
           }
         },
         "table": {
-          "status": "Status",
-          "container": "Container",
-          "created": "Created",
-          "runTime": "Run Time",
-          "actions": "Actions",
-          "unknown": "Unknown"
+          "status": "സ്റ്റാറ്റസ്",
+          "container": "കണ്ടെയ്നർ",
+          "created": "സൃഷ്ടിച്ചു",
+          "runTime": "പ്രവൃത്തി സമയം",
+          "actions": "പ്രവർത്തനങ്ങൾ",
+          "unknown": "അജ്ഞാതം"
         }
       }
     },
     "application": {
       "accessDenied": {
-        "title": "Access Denied",
-        "description": "You don't have permission to view application details"
+        "title": "ആക്സസ് നിരസിച്ചു",
+        "description": "അപ്ലിക്കേഷൻ വിശദാംശങ്ങൾ കാണാൻ നിങ്ങൾക്ക് അനുമതിയില്ല"
       },
       "tabs": {
-        "monitoring": "Monitoring",
-        "configuration": "Configuration",
-        "deployments": "Deployments",
-        "logs": "Logs"
+        "monitoring": "നിരീക്ഷണം",
+        "configuration": "കോൺഫിഗറേഷൻ",
+        "deployments": "വിന്യാസങ്ങൾ",
+        "logs": "ലോഗുകൾ"
       }
     },
     "page": {
-      "title": "Self-Hosted Applications",
-      "description": "Manage your self-hosted applications",
+      "title": "സ്വയം ഹോസ്റ്റ് ചെയ്ത ആപ്ലിക്കേഷനുകൾ",
+      "description": "നിങ്ങളുടെ സ്വയം ഹോസ്റ്റ് ചെയ്ത ആപ്ലിക്കേഷനുകൾ കൈകാര്യം ചെയ്യുക",
       "accessDenied": {
-        "title": "Access Denied",
-        "description": "You don't have permission to view self-hosted applications"
+        "title": "ആക്സസ് നിരസിച്ചു",
+        "description": "സ്വയം ഹോസ്റ്റ് ചെയ്ത ആപ്ലിക്കേഷനുകൾ കാണാൻ നിങ്ങൾക്ക് അനുമതിയില്ല"
       },
-      "createButton": "Create",
-      "loading": "Loading applications...",
-      "noApplications": "No applications found",
+      "createButton": "സൃഷ്‌ടിക്കുക",
+      "loading": "ആപ്ലിക്കേഷനുകൾ ലോഡുചെയ്യുന്നു...",
+      "noApplications": "ആപ്ലിക്കേഷനുകളൊന്നും കണ്ടെത്തിയില്ല",
       "search": {
-        "placeholder": "Search applications..."
+        "placeholder": "ആപ്ലിക്കേഷനുകൾ തിരയൂ..."
       },
       "sort": {
-        "name": "Name",
-        "created": "Created",
-        "updated": "Updated",
-        "status": "Status"
-      }
+       "name": "പേര്",
+       "created": "സൃഷ്ടിച്ചത്",
+       "updated": "അപ്‌ഡേറ്റുചെയ്തത്",
+       "status": "സ്ഥിതി"
+}
     },
     "configuration": {
-      "sections": {
-        "basicConfiguration": "Basic Configuration",
-        "dockerConfiguration": "Docker Configuration",
-        "environmentVariables": "Environment Variables",
-        "commands": "Commands",
-        "deploymentInformation": "Deployment Information"
-      },
-      "fields": {
+     "sections": {
+      "basicConfiguration": "അടിസ്ഥാന ക്രമീകരണം",
+      "dockerConfiguration": "ഡോക്കർ ക്രമീകരണം",
+      "environmentVariables": "എൻവയോൺമെന്റ് വേരിയബിളുകൾ",
+      "commands": "കമാൻഡുകൾ",
+      "deploymentInformation": "ഡിപ്ലോയ്മെന്റ് വിവരങ്ങൾ"
+    },
+       "fields": {
         "applicationName": {
-          "label": "Application Name",
-          "description": "Application name"
-        },
-        "port": {
-          "label": "Port",
-          "description": "Port on which your application will be available"
-        },
-        "basePath": {
-          "label": "Base Path",
-          "description": "The build context path for your application"
-        },
-        "dockerfilePath": {
-          "label": "Dockerfile Path",
-          "description": "Path of the dockerfile relative to the base path"
-        },
-        "environmentVariables": {
-          "label": "Environment Variables",
-          "description": "Type KEY=VALUE and press Enter to add",
-          "placeholder": "NODE_ENV=production"
-        },
-        "buildVariables": {
-          "label": "Build Variables",
-          "description": "Type KEY=VALUE and press Enter to add",
-          "placeholder": "DEBUG=false"
-        },
-        "preRunCommands": {
-          "label": "Pre Run Commands",
-          "description": "Commands to run before deployment",
-          "placeholder": "npm install"
-        },
-        "postRunCommands": {
-          "label": "Post Run Commands",
-          "description": "Commands to run after deployment",
-          "placeholder": "npm run test"
-        },
-        "environment": {
-          "label": "Environment",
-          "description": "Environment of the deployment"
-        },
-        "branch": {
-          "label": "Branch",
-          "description": "Branch from where you want to deploy"
-        },
-        "domain": {
-          "label": "Domain",
-          "description": "Domain on which your application is available"
-        },
-        "buildPack": {
-          "label": "Build Pack",
-          "description": "Build pack used for the application"
-        }
+         "label": "ആപ്ലിക്കേഷൻ പേര്",
+         "description": "ആപ്ലിക്കേഷൻ പേര്"
       },
-      "buttons": {
-        "update": "Update Deployment",
-        "updating": "Updating..."
-      }
+        "port": {
+          "label": "പോർട്ട്",
+          "description": "നിങ്ങളുടെ ആപ്ലിക്കേഷൻ ലഭ്യമായിരിക്കും എന്ന പോർട്ട്"
+        },
+      "basePath": {
+        "label": "ബേസ് പാത",
+        "description": "നിങ്ങളുടെ ആപ്ലിക്കേഷനുള്ള ബിൽഡ് കോൺടെക്‌സ്‌റ്റ് പാത"
+    },
+     "dockerfilePath": {
+        "label": "ഡോക്കർഫയൽ പാത",
+        "description": "ബേസ് പാത്തിനെ അനുസരിച്ച് ഡോക്കർഫയലിന്റെ പാത"
+    },
+     "environmentVariables": {
+        "label": "എൻവയോൺമെന്റ് വേരിയബിളുകൾ",
+        "description": "KEY=VALUE ടൈപ്പ് ചെയ്ത് എൻറ്റർ അമർത്തി ചേർക്കുക",
+        "placeholder": "NODE_ENV=പ്രൊഡക്ഷൻ"
+    },
+     "buildVariables": {
+        "label": "ബിൽഡ് വേരിയബിളുകൾ",
+        "description": "താക്കോൽ=മൂല്യം ടൈപ്പ് ചെയ്ത് എൻറ്റർ അമർത്തി ചേർക്കുക",
+        "placeholder": "ഡീബഗ്=തെറ്റായ"
+    },
+     "preRunCommands": {
+        "label": "പ്രി റൺ കമാൻഡുകൾ",
+        "description": "ഡിപ്ലോയ്മെന്റിന് മുമ്പ് പ്രവർത്തിപ്പിക്കേണ്ട കമാൻഡുകൾ",
+        "placeholder": "npm ഇൻസ്റ്റാൾ ചെയ്യുക"
+    },
+     "postRunCommands": {
+        "label": "പോസ്റ്റ് റൺ കമാൻഡുകൾ",
+        "description": "ഡിപ്ലോയ്മെന്റിന് ശേഷം പ്രവർത്തിപ്പിക്കേണ്ട കമാൻഡുകൾ",
+        "placeholder": "npm റൺ ടെസ്റ്റ്"
+    },
+    "environment": {
+      "label": "എൻവയോൺമെന്റ്",
+      "description": "ഡിപ്ലോയ്മെന്റിന്റെ എൻവയോൺമെന്റ്"
+    },
+    "branch": {
+      "label": "ബ്രാഞ്ച്",
+      "description": "നിങ്ങൾക്ക് ഡിപ്ലോയ് ചെയ്യേണ്ട ബ്രാഞ്ച്"
+    },
+    "domain": {
+      "label": "ഡൊമെയിൻ",
+      "description": "നിങ്ങളുടെ ആപ്ലിക്കേഷൻ ലഭ്യമായിരിക്കുന്ന ഡൊമെയിൻ"
+    },
+    "buildPack": {
+      "label": "ബിൽഡ് പാക്ക്",
+      "description": "ആപ്ലിക്കേഷനിൽ ഉപയോഗിച്ചുള്ള ബിൽഡ് പാക്ക്"
+    }
+    },
+    "buttons": {
+       "update": "ഡിപ്ലോയ്മെന്റ് അപ്‌ഡേറ്റ് ചെയ്യുക",
+       "updating": "അപ്‌ഡേറ്റുചെയ്യുന്നു..."
+     }
     },
     "deployments": {
-      "list": {
-        "title": "Deployments",
-        "noDeployments": "No deployments found",
-        "card": {
-          "status": {
-            "completed": "Completed"
-          },
-          "runTime": "Run Time",
-          "viewButton": "View",
-          "rollback": {
-            "title": "Rollback deployment"
-          }
-        }
-      },
-      "chart": {
-        "title": "Deployment Stats",
-        "description": "Current status of all deployments",
-        "status": {
-          "building": "Building",
-          "deployed": "Deployed",
-          "deploying": "Deploying",
-          "failed": "Failed"
-        },
-        "total": "Total deployments: {count}"
-      }
-    },
-    "applicationDetails": {
-      "header": {
-        "actions": {
-          "restart": {
-            "button": "Restart Application",
-            "success": "Application restart started",
-            "error": "Failed to restart application",
-            "permissionError": "You do not have permission to restart applications"
-          },
-          "delete": {
-            "button": "Delete",
-            "dialog": {
-              "title": "Delete {name}",
-              "description": "Are you sure you want to delete {name}? This action cannot be undone."
-            },
-            "success": "Application deleted successfully",
-            "error": "Failed to delete application",
-            "permissionError": "You do not have permission to delete applications"
-          },
-          "redeploy": {
-            "button": "Re-Deploy",
-            "forceButton": "Force Deploy Without Cache",
-            "success": "Application redeployment started",
-            "error": "Failed to redeploy application",
-            "permissionError": "You do not have permission to redeploy applications"
-          },
-          "open": "Open application in new tab"
-        }
-      }
-    },
-    "logViewer": {
-      "title": "Log Viewer",
-      "description": "Real-time installation logs",
-      "actions": {
-        "fetchMore": "Fetch More",
-        "refresh": "Refresh",
-        "fullscreen": "Fullscreen",
-        "exitFullscreen": "Exit Fullscreen",
-        "download": "Download",
-        "search": {
-          "placeholder": "Search logs...",
-          "previous": "Previous",
-          "next": "Next",
-          "results": "{current} of {total}"
-        },
-        "filter": {
-          "level": {
-            "label": "Filter by level",
-            "all": "All Levels"
-          },
-          "time": {
-            "label": "Time range",
-            "all": "All Time",
-            "5m": "Last 5 minutes",
-            "15m": "Last 15 minutes",
-            "1h": "Last hour",
-            "24h": "Last 24 hours"
-          }
-        },
-        "autoScroll": "Auto-scroll"
-      }
-    },
-    "deployForm": {
-      "accessDenied": {
-        "title": "Access Denied",
-        "description": "You don't have permission to deploy new applications"
-      },
-      "success": {
-        "update": "Deployment updated successfully"
-      },
-      "errors": {
-        "createFailed": "Failed to create deployment",
-        "updateFailed": "Failed to update deployment"
-      },
-      "fields": {
-        "applicationName": {
-          "label": "Application Name",
-          "description": "Application name",
-          "placeholder": "Application name"
-        },
-        "environment": {
-          "label": "Environment",
-          "description": "Environments helps you deploy to different spaces",
-          "placeholder": "Environment",
-          "options": {
-            "staging": "Staging",
-            "production": "Production",
-            "development": "Development"
-          }
-        },
-        "basePath": {
-          "label": "Base Path",
-          "description": "The build context path for your application",
-          "placeholder": "/"
-        },
-        "dockerfilePath": {
-          "label": "Dockerfile Path",
-          "description": "Path of the dockerfile relative to the base path",
-          "placeholder": "Dockerfile"
-        },
-        "branch": {
-          "label": "Branch",
-          "description": "Branch from where you want to deploy",
-          "placeholder": "Branch"
-        },
-        "port": {
-          "label": "Port",
-          "description": "Port on which your application will be available",
-          "placeholder": "3000"
-        },
-        "domain": {
-          "label": "Domain",
-          "description": "Domain on which your application will be available",
-          "placeholder": "Domain"
-        },
-        "buildPack": {
-          "label": "Build Pack",
-          "description": "Choose the one that best fits your application structure",
-          "placeholder": "Build Pack",
-          "options": {
-            "dockerfile": "Dockerfile",
-            "dockerCompose": "DockerCompose",
-            "static": "Static"
-          }
-        },
-        "envVariables": {
-          "label": "Environment Variables",
-          "description": "Type KEY=VALUE and press Enter to add",
-          "placeholder": "NODE_ENV=production"
-        },
-        "buildVariables": {
-          "label": "Build Variables",
-          "description": "Type KEY=VALUE and press Enter to add",
-          "placeholder": "DEBUG=false"
-        },
-        "preRunCommands": {
-          "label": "Pre Run Commands",
-          "description": "Commands to run before deployment",
-          "placeholder": "npm install"
-        },
-        "postRunCommands": {
-          "label": "Post Run Commands",
-          "description": "Commands to run after deployment",
-          "placeholder": "npm run test"
-        }
-      },
-      "submit": "Deploy",
-      "validation": {
-        "applicationName": {
-          "minLength": "Application name must be at least 3 characters.",
-          "invalidFormat": "Application name must be a valid name."
-        },
-        "environment": {
-          "invalidValue": "Environment name must be production, staging, or development."
-        },
-        "branch": {
-          "minLength": "Branch name must be at least 3 characters.",
-          "invalidFormat": "Branch name must be a valid name."
-        },
-        "port": {
-          "invalidFormat": "Port must be a number."
-        },
-        "domain": {
-          "minLength": "Domain name must be at least 3 characters long.",
-          "invalidFormat": "Please enter a valid domain name (e.g., example.com).",
-          "notAllowed": "This domain is not allowed. You can add it in the Settings > Domains section to make it available."
-        },
-        "repository": {
-          "minLength": "Repository name must be at least 3 characters.",
-          "invalidFormat": "Repository name must be a valid name."
-        },
-        "buildPack": {
-          "invalidValue": "Build pack must be Dockerfile, DockerCompose, or Static."
-        },
-        "envVariables": {
-          "emptyInput": "Input cannot be empty",
-          "invalidFormat": "Must be in format KEY=VALUE",
-          "emptyKey": "Key cannot be empty"
-        }
-      }
-    },
-    "githubInstaller": {
-      "title": "Install GitHub App",
-      "description": "Let's connect to the app we just created",
-      "connectButton": "Connect GitHub",
-      "terms": "By connecting, you agree to our Terms of Service and Privacy Policy."
-    },
-    "githubManifest": {
-      "title": "Create GitHub App",
-      "appName": {
-        "label": "App Name",
-        "placeholder": "Enter app name",
-        "generate": "Generate new name"
-      },
-      "createButton": "Create GitHub App",
+  "list": {
+    "title": "ഡിപ്ലോയ്മെന്റുകൾ",
+    "noDeployments": "ഡിപ്ലോയ്മെന്റുകളൊന്നും കണ്ടെത്തിയില്ല",
+    "card": {
       "status": {
-        "redirecting": "Redirecting to GitHub...",
-        "converting": "Setting up your GitHub App...",
-        "success": "GitHub App created successfully!"
-      }
-    },
-    "repositories": {
-      "title": "Repositories",
-      "noRepositories": "No repositories found",
-      "search": {
-        "placeholder": "Search repositories..."
+        "completed": "പൂർത്തിയായി"
       },
-      "sort": {
-        "name": "Name",
-        "created": "Created",
-        "updated": "Updated",
-        "stars": "Stars"
-      }
-    },
-    "repositoryCard": {
-      "viewOnGithub": "View on GitHub",
-      "unnamed": "Unnamed Repository",
-      "visibility": {
-        "private": "Private",
-        "public": "Public"
-      },
-      "topics": {
-        "more": "+{count} more"
-      }
-    },
-    "create": {
-      "title": "Repository",
-      "description": "Configure how you want to deploy your application",
-      "accessDenied": {
-        "title": "Access Denied",
-        "description": "You don't have permission to create self-host applications"
-      }
-    },
-    "githubCallback": {
-      "processing": "Processing GitHub installation...",
-      "success": "Successfully connected to GitHub!",
-      "error": {
-        "invalidParams": "Invalid installation parameters",
-        "installationFailed": "Installation failed"
+      "runTime": "റൺ ടൈം",
+      "viewButton": "കാണുക",
+      "rollback": {
+        "title": "ഡിപ്ലോയ്മെന്റ് റോള്ബാക്ക്"
       }
     }
+  },
+  "chart": {
+    "title": "ഡിപ്ലോയ്മെന്റ് സ്ഥിതിവിവരക്കണക്കുകൾ",
+    "description": "എല്ലാ ഡിപ്ലോയ്മെന്റുകളുടെയും നിലവിലെ സ്ഥിതി",
+    "status": {
+      "building": "നിർമ്മിക്കുന്നു",
+      "deployed": "ഡിപ്ലോയുചെയ്‌തു",
+      "deploying": "ഡിപ്ലോയുചെയ്യുന്നു",
+      "failed": "പരാജയപ്പെട്ടു"
+    },
+    "total": "മൊത്തം ഡിപ്ലോയ്മെന്റുകൾ: {count}"
+   }
+  },
+   "applicationDetails": {
+    "header": {
+     "actions": {
+      "restart": {
+        "button": "ആപ്ലിക്കേഷൻ റീസ്റ്റാർട്ട് ചെയ്യുക",
+        "success": "ആപ്ലിക്കേഷൻ റീസ്റ്റാർട്ട് ആരംഭിച്ചു",
+        "error": "ആപ്ലിക്കേഷൻ റീസ്റ്റാർട്ട് ചെയ്യുന്നതിൽ പരാജയം",
+        "permissionError": "ആപ്ലിക്കേഷനുകൾ റീസ്റ്റാർട്ട് ചെയ്യാനുള്ള അനുവാദം നിങ്ങൾക്കില്ല"
+      },
+      "delete": {
+        "button": "ഇല്ലാതാക്കുക",
+        "dialog": {
+          "title": "{പേര്} ഇല്ലാതാക്കുക",
+          "description": "{പേര്} ഇല്ലാതാക്കണോ എന്ന് ഉറപ്പ് വരുത്തുക? ഈ പ്രവർത്തി പിന്‍വലിക്കാനാവില്ല."
+        },
+        "success": "ആപ്ലിക്കേഷൻ വിജയകരമായി ഇല്ലാതാക്കി",
+        "error": "ആപ്ലിക്കേഷൻ ഇല്ലാതാക്കുന്നതിൽ പരാജയം",
+        "permissionError": "ആപ്ലിക്കേഷനുകൾ ഇല്ലാതാക്കാനുള്ള അനുവാദം നിങ്ങൾക്കില്ല"
+      },
+      "redeploy": {
+        "button": "പുനർ-ഡിപ്ലോയ്",
+        "forceButton": "ക്യാഷ് ഇല്ലാതെ ഫോഴ്സ് ഡിപ്ലോയ് ചെയ്യുക",
+        "success": "ആപ്ലിക്കേഷൻ പുനർഡിപ്ലോയ്മെന്റ് ആരംഭിച്ചു",
+        "error": "ആപ്ലിക്കേഷൻ പുനർഡിപ്ലോയ്മെന്റിൽ പരാജയം",
+        "permissionError": "നിങ്ങൾക്ക് ആപ്ലിക്കേഷൻ പുനർഡിപ്ലോയ് ചെയ്യാൻ അനുവാദം ഇല്ല"
+      },
+      "open": "പുതിയ ടാബിൽ ആപ്ലിക്കേഷൻ തുറക്കുക"
+    }
+  }
+},
+   "logViewer": {
+    "title": "ലോഗ് വ്യൂവർ",
+    "description": "രിയൽ ടൈം ഇൻസ്റ്റലേഷൻ ലോഗുകൾ",
+    "actions": {
+    "fetchMore": "കൂടുതൽ കൊണ്ടുവരിക",
+    "refresh": "പുതുക്കുക",
+    "fullscreen": "ഫുൾസ്ക്രീൻ",
+    "exitFullscreen": "ഫുൾസ്ക്രീൻ നിന്ന് പുറത്ത് വരുക",
+    "download": "ഡൗൺലോഡ്",
+    "search": {
+      "placeholder": "ലോഗുകൾ തിരയൂ...",
+      "previous": "മുൻപത്തെത്",
+      "next": "അടുത്തത്",
+      "results": "{നിലവിലെ} / {ആകെ}"
+    },
+    "filter": {
+      "level": {
+        "label": "നിലവാരം പ്രകാരം ഫിൽറ്റർ ചെയ്യുക",
+        "all": "എല്ലാ നിലകളും"
+      },
+      "time": {
+        "label": "സമയ പരിധി",
+        "all": "എല്ലാ സമയം",
+        "5m": "അവസാന 5 മിനിറ്റ്",
+        "15m": "അവസാന 15 മിനിറ്റ്",
+        "1h": "അവസാന മണിക്കൂർ",
+        "24h": "അവസാന 24 മണിക്കൂർ"
+      }
+     },
+    "autoScroll": "ഓട്ടോ-സ്ക്രോൾ"
+    }
+  },
+   "deployForm": {
+    "accessDenied": {
+      "title": "പ്രവേശനം നിരസിച്ചു",
+      "description": "പുതിയ ആപ്ലിക്കേഷനുകൾ ഡിപ്ലോയ് ചെയ്യാൻ നിങ്ങൾക്കു അനുവദനില്ല"
+  },
+    "success": {
+      "update": "ഡിപ്ലോയ്മെന്റ് വിജയകരമായി അപ്‌ഡേറ്റു ചെയ്തു"
+    },
+     "errors": {
+  "createFailed": "ഡിപ്ലോയ്മെന്റ് സൃഷ്ടിക്കാൻ പരാജയപ്പെട്ടു",
+  "updateFailed": "ഡിപ്ലോയ്മെന്റ് അപ്‌ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
+},
+"fields": {
+  "applicationName": {
+    "label": "ആപ്ലിക്കേഷൻ പേര്",
+    "description": "ആപ്ലിക്കേഷൻ പേര്",
+    "placeholder": "ആപ്ലിക്കേഷൻ പേര്"
+  },
+  "environment": {
+    "label": "എൻവയോൺമെന്റ്",
+    "description": "വിവിധ സ്പേസുകളിലെത്താൻ എൻവയോൺമെന്റ് സഹായിക്കുന്നു",
+    "placeholder": "എൻവയോൺമെന്റ്",
+    "options": {
+      "staging": "സ്റ്റേജിങ്",
+      "production": "പ്രൊഡക്ഷൻ",
+      "development": "ഡെവലപ്പ്മെന്റ്"
+    }
+  },
+  "basePath": {
+    "label": "ബേസ് പാത",
+    "description": "നിങ്ങളുടെ ആപ്ലിക്കേഷനുള്ള ബിൽഡ് കോൺടെക്‌സ്‌റ്റ് പാത",
+    "placeholder": "/"
+  },
+  "dockerfilePath": {
+    "label": "ഡോക്കർഫയൽ പാത",
+    "description": "ഡോക്കർഫയലിന്റെ പാത (ബേസ് പാത്തിനെ അനുസരിച്ച്)",
+    "placeholder": "ഡോക്കർഫിൽ"
+  },
+  "branch": {
+    "label": "ബ്രാഞ്ച്",
+    "description": "നിങ്ങൾക്ക് ഡിപ്ലോയ് ചെയ്യേണ്ട ബ്രാഞ്ച്",
+    "placeholder": "ബ്രാഞ്ച്"
+  },
+  "port": {
+    "label": "പോർട്ട്",
+    "description": "നിങ്ങളുടെ ആപ്ലിക്കേഷൻ ലഭ്യമായിരിക്കും എന്ന പോർട്ട്",
+    "placeholder": "3000"
+  },
+  "domain": {
+    "label": "ഡൊമെയിൻ",
+    "description": "നിങ്ങളുടെ ആപ്ലിക്കേഷൻ ലഭ്യമായിരിക്കുന്ന ഡൊമെയിൻ",
+    "placeholder": "ഡൊമെയിൻ"
+  },
+  "buildPack": {
+    "label": "ബിൽഡ് പാക്ക്",
+    "description": "നിങ്ങളുടെ ആപ്ലിക്കേഷൻ സ്ട്രക്ചറിൽ ഏറ്റവും അനുയോജ്യമായത് തിരഞ്ഞെടുക്കുക",
+    "placeholder": "ബിൽഡ് പാക്ക്",
+    "options": {
+      "dockerfile": "ഡോക്കർഫിൽ",
+      "dockerCompose": "DockerCompose",
+      "static": "സ്റ്റാറ്റിക്"
+    }
+  },
+  "envVariables": {
+    "label": "എൻവയോൺമെന്റ് വേരിയബിൾസ്",
+    "description": "താക്കോൽ=മൂല്യം ടൈപ്പ് ചെയ്ത് എൻറ്റർ അമർത്തി ചേർക്കുക",
+    "placeholder": "NODE_ENV=ഉത്പാദനം"
+  },
+  "buildVariables": {
+    "label": "ബിൽഡ് വേരിയബിൾസ്",
+    "description": "താക്കോൽ=മൂല്യം ടൈപ്പ് ചെയ്ത് എൻറ്റർ അമർത്തി ചേർക്കുക",
+    "placeholder": "DEBUG=തെറ്റായ"
+  },
+  "preRunCommands": {
+    "label": "പ്രി റൺ കമാൻഡുകൾ",
+    "description": "ഡിപ്ലോയ്മെന്റിന് മുമ്പ് പ്രവർത്തിപ്പിക്കേണ്ട കമാൻഡുകൾ",
+    "placeholder": "npm ഇൻസ്റ്റാൾ ചെയ്യുക"
+  },
+  "postRunCommands": {
+    "label": "പോസ്റ്റ് റൺ കമാൻഡുകൾ",
+    "description": "ഡിപ്ലോയ്മെന്റിന് ശേഷം പ്രവർത്തിപ്പിക്കേണ്ട കമാൻഡുകൾ",
+    "placeholder": "npm റൺ ടെസ്റ്റ്"
+   }
+  },
+   "submit": "ഡിപ്ലോയ് ചെയ്യുക",
+    "validation": {
+     "applicationName": {
+      "minLength": "ആപ്ലിക്കേഷൻ പെയർ കുറഞ്ഞത് 3 അക്ഷരങ്ങളായിരിക്കണം.",
+      "invalidFormat": "ആപ്ലിക്കേഷൻ പേര് സാധുവായതായിരിക്കണം."
+  },
+  "environment": {
+    "invalidValue": "എൻവയോൺമെന്റ് ഉത്പാദനം, സ്റ്റേജിംഗ്, അല്ലെങ്കിൽ ഡെവലപ്പ്മെന്റ് ആയിരിക്കണം."
+  },
+  "branch": {
+    "minLength": "ബ്രാഞ്ച് പേര് കുറഞ്ഞത് 3 അക്ഷരങ്ങളായിരിക്കണം.",
+    "invalidFormat": "ബ്രാഞ്ച് പേര് സാധുവായതായിരിക്കണം."
+  },
+  "port": {
+    "invalidFormat": "പോർട്ട് ഒരു സംഖ്യ ആയിരിക്കണം."
+  },
+  "domain": {
+    "minLength": "ഡൊമെയിൻ പേര് കുറഞ്ഞത് 3 അക്ഷരങ്ങൾ ആയിരിക്കണം.",
+    "invalidFormat": "സാധുവായ ഡൊമെയിൻ പേര് നൽകുക (ഉദാ: example.com).",
+    "notAllowed": "ഈ ഡൊമെയിൻ അനുവദിച്ചിട്ടില്ല. ലഭ്യമാക്കാൻ ക്രമീകരണങ്ങൾ > ഡൊമെയ്‌നുകൾ സെക്ഷനിൽ ചേർക്കാവുന്നതാണ്."
+  },
+  "repository": {
+    "minLength": "റിപ്പോസിറ്ററി പേര് കുറഞ്ഞത് 3 അക്ഷരങ്ങളായിരിക്കണം.",
+    "invalidFormat": "റിപ്പോസിറ്ററി പേര് സാധുവായതായിരിക്കണം."
+  },
+  "buildPack": {
+    "invalidValue": "ബിൽഡ് പാക്ക് Dockerfile, DockerCompose, അല്ലെങ്കിൽ Static ആയിരിക്കണം."
+  },
+  "envVariables": {
+    "emptyInput": "ഇൻപുട്ട് ഒഴിവാക്കരുത്",
+    "invalidFormat": "താക്കോൽ=മൂല്യം ഫോർമാറ്റിൽ ആയിരിക്കണം",
+    "emptyKey": "കീ ഒഴിവാക്കരുത്"
+    }
+   }
+  },
+  "githubInstaller": {
+    "title": "GitHub ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്യുക",
+    "description": "നാം ഇപ്പോൾ സൃഷ്ടിച്ച ആപ്പിലേക്ക് കണക്റ്റ് ചെയ്യാം",
+    "connectButton": "GitHub കണക്റ്റ് ചെയ്യുക",
+    "terms": "കണക്റ്റ് ചെയ്യുന്നതിലൂടെ, നിങ്ങള്‍ ഞങ്ങളുടെ സേവന നിബന്ധനകളും സ്വകാര്യതാ നയവും അംഗീകരിക്കുന്നു."
+  },
+  "githubManifest": {
+   "title": "GitHub ആപ്പ് സൃഷ്ടിക്കുക",
+   "appName": {
+     "label": "ആപ്പ് പേര്",
+     "placeholder": "ആപ്പ് പേര് നൽകുക",
+     "generate": "പുതിയ പേര് സൃഷ്ടിക്കുക"
+   },
+   "createButton": "GitHub ആപ്പ് സൃഷ്ടിക്കുക",
+   "status": {
+     "redirecting": "GitHub-ലേക്ക് റീഡയറക്‌ട് ചെയ്യുന്നു...",
+     "converting": "നിങ്ങളുടെ GitHub ആപ്പ് ക്രമീകരിക്കുന്നു...",
+     "success": "GitHub ആപ്പ് വിജയകരമായി സൃഷ്ടിച്ചു!"
+   }
+  },
+  "repositories": {
+    "title": "റിപ്പോസിറ്ററികൾ",
+    "noRepositories": "റിപ്പോസിറ്ററികളൊന്നും കണ്ടെത്തിയില്ല",
+    "search": {
+      "placeholder": "റിപ്പോസിറ്ററികൾ തിരയൂ..."
+   },
+   "sort": {
+     "name": "പേര്",
+     "created": "സൃഷ്ടിച്ചത്",
+     "updated": "അപ്‌ഡേറ്റുചെയ്തത്",
+     "stars": "സ്റ്റാർസ്"
+   }
+  },
+  "repositoryCard": {
+   "viewOnGithub": "GitHub-ൽ കാണുക",
+   "unnamed": "പേര് ഇല്ലാത്ത റിപ്പോസിറ്ററി",
+   "visibility": {
+     "private": "പ്രൈവറ്റ്",
+     "public": "പബ്ലിക്"
+  },
+   "topics": {
+     "more": "+{എണ്ണുക} കൂടുതൽ"
+   }
+ },
+  "create": {
+   "title": "റിപ്പോസിറ്ററി",
+   "description": "നിങ്ങളുടെ ആപ്ലിക്കേഷൻ എങ്ങനെ ഡിപ്ലോയ് ചെയ്യണമെന്ന് ക്രമീകരിക്കുക",
+   "accessDenied": {
+     "title": "പ്രവേശനം നിരസിച്ചു",
+     "description": "സ്വയം ഹോസ്റ്റ് ആപ്ലിക്കേഷനുകൾ സൃഷ്ടിക്കാൻ നിങ്ങൾക്കാകില്ല"
+   }
+  },
+  "githubCallback": {
+    "processing": "GitHub ഇൻസ്റ്റലേഷൻ പ്രോസസ്സ് ചെയ്യുന്നു...",
+    "success": "GitHub-ൽ വിജയകരമായി കണക്റ്റ് ചെയ്തു!",
+    "error": {
+     "invalidParams": "അസാധുവായ ഇൻസ്റ്റലേഷൻ പാരാമീറ്ററുകൾ",
+     "installationFailed": "ഇൻസ്റ്റലേഷൻ പരാജയപ്പെട്ടു"
+    }
+   }
   },
   "terminal": {
-    "title": "Terminal",
-    "shortcut": "⌘J",
-    "close": "Close Terminal"
-  },
-  "navigation": {
-    "dashboard": "Dashboard",
-    "selfHost": "Self Host",
-    "fileManager": "File Manager",
-    "settings": "Settings",
-    "general": "General",
-    "notifications": "Notifications",
-    "team": "Team",
-    "domains": "Domains",
-    "update": "Update",
-    "containers": "Containers"
+   "title": "ടെർമിനൽ",
+   "shortcut": "⌘J",
+   "close": "ടെർമിനൽ അടയ്ക്കുക"
+ },
+ "navigation": {
+   "dashboard": "ഡാഷ്‌ബോർഡ്",
+   "selfHost": "സ്വയം ഹോസ്റ്റ്",
+   "fileManager": "ഫയൽ മാനേജർ",
+   "settings": "ക്രമീകരണങ്ങൾ",
+   "general": "ജനറൽ",
+   "notifications": "അറിയിപ്പുകൾ",
+   "team": "ടീം",
+   "domains": "ഡൊമെയിനുകൾ",
+   "update": "അപ്‌ഡേറ്റ്",
+   "containers": "കണ്ടെയ്‌നറുകൾ"
   },
   "layout": {
-    "breadcrumbs": {
-      "home": "Home",
-      "dashboard": "Dashboard",
-      "selfHost": "Self Host",
-      "fileManager": "File Manager",
-      "settings": "Settings",
-      "general": "General",
-      "notifications": "Notifications",
-      "team": "Team",
-      "domains": "Domains"
-    },
-    "terminal": {
-      "togglePosition": "Toggle Terminal Position (Ctrl+T)"
-    }
+   "breadcrumbs": {
+     "home": "ഹോം",
+     "dashboard": "ഡാഷ്‌ബോർഡ്",
+     "selfHost": "സ്വയം ഹോസ്റ്റ്",
+     "fileManager": "ഫയൽ മാനേജർ",
+     "settings": "ക്രമീകരണങ്ങൾ",
+     "general": "ജനറൽ",
+     "notifications": "അറിയിപ്പുകൾ",
+     "team": "ടീം",
+     "domains": "ഡൊമെയിനുകൾ"
+   },
+   "terminal": {
+     "togglePosition": "ടെർമിനൽ സ്ഥാനം മാറ്റുക (Ctrl+T)"
+   }
   },
   "user": {
-    "menu": {
-      "sponsor": "Sponsor",
-      "help": "Help",
-      "reportIssue": "Report an issue",
-      "logout": "Log out"
-    }
+   "menu": {
+     "sponsor": "സ്പോൺസർ",
+     "help": "സഹായം",
+     "reportIssue": "പ്രശ്നം റിപ്പോർട്ട് ചെയ്യുക",
+     "logout": "ലോഗ് ഔട്ട് ചെയ്യുക"
+   }
   },
   "toasts": {
     "errors": {
-      "realtimeMonitor": "Error connecting to realtime monitor service",
-      "setFileToCopy": "Error setting file to copy",
-      "moveFile": "Error moving file",
-      "copyFile": "Error copying file",
-      "renameFile": "Error renaming file",
-      "startRenaming": "Error starting renaming",
-      "navigateToFile": "Error navigating to file",
-      "createNewFolder": "Error creating new folder",
-      "uploadFile": "Failed to upload file",
-      "deleteFile": "Error deleting file",
-      "setEmail": "Error setting email",
-      "setPassword": "Error setting password"
+      "realtimeMonitor": "റിയൽടൈം മോണിറ്റർ സർവീസിലേക്ക് കണക്റ്റ് ചെയ്യുന്നതിൽ പിശക്",
+      "setFileToCopy": "കോപിക്കേണ്ട ഫയൽ സെറ്റ് ചെയ്യുന്നതിൽ പിശക്",
+      "moveFile": "ഫയൽ മാറ്റുന്നതിൽ പിശക്",
+      "copyFile": "ഫയൽ കോപ്പി ചെയ്യുന്നതിൽ പിശക്",
+      "renameFile": "ഫയൽ പുനർനാമകരണം ചെയ്യുന്നതിൽ പിശക്",
+      "startRenaming": "പുനർനാമകരണം ആരംഭിക്കാൻ പിശക്",
+      "navigateToFile": "ഫയലിലേക്ക് നാവിഗേറ്റ് ചെയ്യുന്നതിൽ പിശക്",
+      "createNewFolder": "പുതിയ ഫോൾഡർ സൃഷ്ടിക്കുന്നതിൽ പിശക്",
+      "uploadFile": "ഫയൽ അപ്ലോഡ് ചെയ്യുന്നതിൽ പരാജയം",
+      "deleteFile": "ഫയൽ ഇല്ലാതാക്കുന്നതിൽ പിശക്",
+      "setEmail": "ഇമെയിൽ സെറ്റ് ചെയ്യുന്നതിൽ പിശക്",
+      "setPassword": "പാസ്‌വേഡ് സെറ്റ് ചെയ്യുന്നതിൽ പിശക്"
     }
   }
 }
